@@ -15,4 +15,4 @@ La aplicación no está terminada. Es necesario cubrir los siguientes requerimie
 
 ## Preview
 
-![GoBus-preview](GoBus-credits.png)
+![GoBus-preview](https://github.com/dmc12345628/gobus-credits/blob/master/GoBus-credits-preview.png)
