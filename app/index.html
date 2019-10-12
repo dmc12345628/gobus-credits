@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>GoBus</title>
+	<script src="./index.js"></script>
+	<script src="./storage.js"></script>
+</head>
+<body onload="init()">
+	<div id="div-action-bar">
+		<div id="div-menu">
+			<div>
+				<a href="./index.html">
+					Inicio
+				</a>
+			</div>
+			<div>
+				<a href="./comprar.html">
+					Comprar
+				</a>
+			</div>
+		</div>
+		<div id="div-user-badge">
+			<div id="div-username">
+				Username
+			</div>
+			<div id="div-user-avatar">
+				Avatar
+			</div>
+		</div>
+	</div>
+
+	<div id="div-content">
+		<div id="div-creditos">
+			Tus creditos
+			<div id="div-creditos-value">
+				0
+			</div>
+		</div>
+		<div id="div-add-creditos">
+			<div id="div-plus-icon">
+				plus-icon
+			</div>
+			Agregar créditos
+		</div>
+	</div>
+
+	<div id="div-user-action">
+		Desconectarse
+	</div>
+
+	<div id="div-modal-add-creditos">
+		<input type="number" placeholder="Creditos que agregarás">
+		<button id="btn-cancel">Cancelar</button>
+		<button id="btn-add">Agregar</button>
+	</div>
+
+</body>
+</html>
