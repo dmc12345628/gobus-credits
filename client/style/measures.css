@@ -1,0 +1,5 @@
+:root {
+    --navegation-height: 3rem;
+    --content-height: calc(100vh - var(--navegation-height));
+    --footer-height: 4rem;
+}

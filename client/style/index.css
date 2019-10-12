@@ -1,0 +1,34 @@
+/* constants */
+@import 'palette.css';
+@import 'measures.css';
+@import 'zIndexes.css';
+
+/* other styles */
+@import 'navegation.css';
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background: var(--primary);
+    display: flex;
+    z-index: var(--zIndex-header);
+}
+
+.content {
+    width: 100%;
+    min-height: calc(100vh - 3rem);
+    background: var(--primary-light);
+}
+
+footer {
+    width: 100%;
+    height: var(--footer-height);
+    background: var(--secondary);
+}

@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.container.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.container.h-center {
+    justify-content: center;
+}
+
+.container.h-left {
+    justify-content: flex-start;
+}
+
+.container.h-right {
+    justify-content: flex-end;
+}
+
+.container.v-center {
+    align-items: center;
+}
+
+.container.v-top {
+    align-items: flex-start;
+}
+
+.container.v-bottom {
+    align-items: flex-end;
+}
+
+.container > .flex-4 {
+    flex: calc(var(--framework-measures) * 4);
+}

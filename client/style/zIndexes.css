@@ -1,0 +1,5 @@
+:root {
+    --zIndex-header: 100;
+    --zIndex-content: 50;
+    --zIndex-footer: 100;
+}
