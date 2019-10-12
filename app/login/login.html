@@ -4,14 +4,17 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
-    <script src="login.js"></script>
+	<title>Login</title>
+	<link rel="stylesheet" href="login.css">
+	<link rel="stylesheet" href="../box-shadow.css">
+	<script src="../dom.js"></script>
+	<script src="login.js"></script>
 </head>
 <body onload="init()">
-	<div id="div-login">
+	<div id="div-login" class="card-2">
 		<input type="text" id="inp-username" placeholder="Nombre de usuario">
 		<input type="password" id="inp-password" placeholder="Contraseña">
-		<button id="btn-login">Conectarse</button>
+		<button id="btn-login" onclick="login()">Conectarse</button>
   </div>
 </body>
 </html>

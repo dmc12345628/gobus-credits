@@ -1,0 +1,25 @@
+* {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+body {
+    background: #FAFAFA;
+}
+
+/* login */
+#div-login {
+    width: 60%;
+    margin: 256px 20% auto 20%;
+    padding: 16px;
+    border-radius: 20px;
+    background: #FFF;
+}
+button {
+    width: 60%;
+    margin: auto 20% auto 20%;
+}
