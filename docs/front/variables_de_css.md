@@ -8,9 +8,9 @@ Para agregar variables en CSS se ocupa un codigo que empieze con dos guiones (--
 
 Por ejemplo:
 
-(--main-color: black), para accefer a la funcion se ocupa el var() (Por ejemplo,color: var(--main-color;);).
+`(--main-color: black)`, para accefer a la funcion se ocupa el `var()` (Por ejemplo,color: `var(--main-color;)`;).
 
-Las variables como --main-text-color es mas facil de entender que #00ff00, especialmente si este mismo color se utiliza repetidamente.
+Las cariables se utilizan porque es mas facil de entender `--main-text-color` que `#00ff00`, especialmente si este mismo color se utiliza repetidamente.
 
 ## Ejemplo de variables para colores
 
@@ -20,7 +20,7 @@ elemento {
 }
 ```
 
-** Lo que hicimos aqui fue declarar la variable. 
+**Lo que hicimos aqui fue declarar la variable** 
 
 Utilizando la variable:
 
@@ -40,7 +40,7 @@ elemento {
 }
 ```
 
-** se asigna a la variable la separacion deseada
+**se asigna a la variable la separacion deseada**
 
 Utilizando la variable:
 
@@ -50,11 +50,11 @@ section {
 }
 ```
 
-** se utilizo la variable para la separacion
+**se utilizo la variable para la separacion**
 
 # Vaiables globales
 
-Las variables deben declararse dentro de un selector se acostumbra usar: **:root** para que la variable sea global se declara con dos guiones (--) y el nombre para utilizarlas se usa la funcion **var()** y entre parentesis se escribe el nombre de la variable.
+Las variables deben declararse dentro de un selector se acostumbra usar:  `:root` para que la variable sea global se declara con dos guiones (--) y el nombre para utilizarlas se usa la funcion `var()` y entre parentesis se escribe el nombre de la variable.
 
 ## Ejemplo:
 
@@ -71,6 +71,6 @@ h1 {
 }
 ```
 
-En este caso todos los textos (parrafos,titulos,etc) seran de color rojo por herencia, porque desciende de body al resto de elementos (comportamiento propio de css). Pero todos los (parrafos,titulos,etc) de **h1** seran azules porque hemos usado la cascada para redefinir el valor de la propiedad personalizada --color.
+En este caso todos los textos (parrafos,titulos,etc) seran de color rojo por herencia, porque desciende de body al resto de elementos (comportamiento propio de css). Pero todos los (parrafos,titulos,etc) de **h1** seran azules porque hemos usado la cascada para redefinir el valor de la propiedad personalizada `--color`.
 
 Las variables de CSS se utilizan para paginas grandes para aqullos datos que tienen elementos del mismo color o tamaño, esto les puede ayudar para modificar los colores o tamaños mucho mas rapido y no estar haciendolo uno por uno. Solo debes modificar la variable para que los demas datos que tengan esa variable se modifiquen.
