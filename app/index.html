@@ -7,19 +7,16 @@
 	<title>GoBus</title>
 	<script src="./index.js"></script>
 	<script src="./storage.js"></script>
+	<script src="./navigation.js"></script>
 </head>
 <body onload="init()">
 	<div id="div-action-bar">
 		<div id="div-menu">
-			<div>
-				<a href="./index.html">
-					Inicio
-				</a>
+			<div onclick="goToIndex()">
+				Inicio
 			</div>
-			<div>
-				<a href="./comprar.html">
-					Comprar
-				</a>
+			<div onclick="goToComprar()">
+				Comprar
 			</div>
 		</div>
 		<div id="div-user-badge">

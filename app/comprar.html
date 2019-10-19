@@ -1,17 +1,18 @@
 <html>
+    <head>
+    <title>GoBus</title>
+    <script src="./navigation.js"></script>
+    <script src="./index.js"></script>
+    </head>
   <body>
     <div id="div-action-bar">
 		<div id="div-menu">
-			<div>
-				<a href="./index.html">
+			<div onclick="goToIndex()">
 					Inicio
-				</a>
 			</div>
-			<div>
-				<a href="./comprar.html">
+			<div onclick="goToComprar()">
 					Comprar
-				</a>
-			</div>
+			</div >
 		</div>
 		<div id="div-user-badge">
 			<div id="div-username">
@@ -22,7 +23,5 @@
 			</div>
 		</div>
 	</div>
-
   </body>
-
 </html>
