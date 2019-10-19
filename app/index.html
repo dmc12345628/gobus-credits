@@ -43,7 +43,9 @@
 			<div id="div-plus-icon">
 				plus-icon
 			</div>
-			Agregar créditos
+                <a style="border-color: black" onclick="mostrarVentanaCreditos()" id="creditos">
+                    Agregar créditos
+                </a>
 		</div>
 	</div>
 
@@ -51,11 +53,25 @@
 		Desconectarse
 	</div>
 
-	<div id="div-modal-add-creditos">
-		<input type="number" placeholder="Creditos que agregarás">
-		<button id="btn-cancel">Cancelar</button>
-		<button id="btn-add">Agregar</button>
-	</div>
+    <div id="ventanaCreditos" style="
+	position:fixed;
+	 width: 200px; 
+	 height: 100pxpx; 
+	 left: 200px;
+	 top: 200px; 
+	 font-family:Verdana, Arial, Helvetica, sans-serif; 
+	 font-size: 12px; 
+	 font-weight: normal; 
+	 border: #333333 3px solid; background-color: #FAFAFA; color: #000000;
+	 display:none;">
+        
+        <input type="number" placeholder="Creditos que agregarás"> 
+        
+        <button onclick="cerrarVentanaCreditos()">Cancelar</button>
+        
+        <button type="submit">Aceptar</button>
+        
+    </div>
 
 </body>
 </html>
