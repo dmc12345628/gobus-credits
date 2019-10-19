@@ -1,6 +1,6 @@
 function isUserLoggedIn() {
-    const user = localStorage.getItem('username');
-    return true; //user !== null;
+    const username = localStorage.getItem('username');
+    return user !== null;
 }
 
 function getUsername() {
