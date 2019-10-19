@@ -1,4 +1,4 @@
-function isUserLoggedIn() {
+/* function isUserLoggedIn() {
     const username = localStorage.getItem('username');
     return username !== null;
 }
@@ -7,3 +7,4 @@ function isUserLoggedIn() {
 function getUsername() {
     return localStorage.getItem('username');
 }
+*/
