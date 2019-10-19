@@ -22,10 +22,18 @@
 				</a>
 			</div>
 		</div>
+
 		<div id="div-user-badge">
-			<div id="div-username">
+			<a style=
+			"
+			background: white;
+			 border-color: white;
+			"
+			onclick="mostrarVentana()"
+			 id="a-username">
 				Username
-			</div>
+		</a>
+			
 			<div id="div-user-avatar">
 				Avatar
 			</div>
@@ -47,9 +55,7 @@
 		</div>
 	</div>
 
-	<div id="div-user-action">
-		Desconectarse
-	</div>
+	
 
 	<div id="div-modal-add-creditos">
 		<input type="number" placeholder="Creditos que agregarás">
@@ -57,5 +63,23 @@
 		<button id="btn-add">Agregar</button>
 	</div>
 
+	<div id="miVentana" style="
+	position:fixed;
+	 width: 150px; 
+	 height: 50px; 
+	 left: 85px;
+	 top: 0; 
+	 font-family:Verdana, Arial, Helvetica, sans-serif; 
+	 font-size: 12px; 
+	 font-weight: normal; 
+	 border: #333333 3px solid; background-color: #FAFAFA; color: #000000;
+	 display:none;">
+	<button onclick="ocultarVentana()">X</button>
+	<div>
+		<button
+		style="margin-top: 6px;"
+		onclick="CerrarSesion()">Cerrar sesion</button>
+	</div>
+	</div>
 </body>
 </html>
